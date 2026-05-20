@@ -303,7 +303,7 @@ export default function DirectMessageFriend({
 
             {/* Sample messages - replace with real messages */}
 
-            <div className="flex w-full flex-col space-y-4 lg:w-1/2">
+            <div className="w-full flex-col space-y-4 lg:w-1/2 flex">
               {messages.map((message, index) => (
                 <div
                   key={index}
